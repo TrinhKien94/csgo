@@ -23,7 +23,7 @@ hash=OrderedDict()
 f1 = open("info-empire.txt", 'w')
 errorf = open("error-empire.txt", 'w')
 
-for j in range(827,0,-1):
+for j in range(0,831,1):
     try:
         driver.implicitly_wait(30)
         print '1'
@@ -38,7 +38,7 @@ for j in range(827,0,-1):
         print '4'
         coins = soup.find_all('div',{'class':'coin'})
         print 'processing: '+url
-        for coin in coins:
+        for coin in coins[::-1]:
             if 'coin-t' in str(coin):
                 f1.write('1')
             else:
