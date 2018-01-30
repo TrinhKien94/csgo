@@ -53,9 +53,6 @@ driver.quit()
 print 'done: '+url
 f = open('info-empire.txt','r')
 s = f.readline()
-print "Time black 2: " + str(s.count('2'))
-print "Time orange 1: " + str(s.count('1'))
-print "Time bonus 0: " + str(s.count('0'))
 def substring_indexes(substring, string):
     """
     Generate indices of where substring begins in string
@@ -69,6 +66,8 @@ def substring_indexes(substring, string):
         if last_found == -1:
             break  # All occurrences have been found
         yield last_found
+total_bet = 0
+bet_true = 0
 while True:
     count_1 = 0
     count_2 = 0
@@ -77,21 +76,27 @@ while True:
     length = -30
     fall = False
     up = False
+    bet = '0'
+    beted = False
+    text = s+sc
+    text_len = len(text)
+    print "Time black 2: " + str(text.count('2'))
+    print "Time orange 1: " + str(text.count('1'))
+    print "Time bonus 0: " + str(text.count('0'))
     while total == 0:
         ss = sc[length:]
-        list_index = list(substring_indexes(ss, s))
-
-
+        list_index = list(substring_indexes(ss, text))
         for i in list_index:
-            if(s[i+len(ss)] is '1'):
+            if i+len(ss) == text_len:
+                break;
+            if(text[i+len(ss)] is '1'):
                 count_1 = count_1 + 1
-            if(s[i+len(ss)] is '2'):
+            if(text[i+len(ss)] is '2'):
                 count_2 = count_2 + 1
-            if(s[i+len(ss)] is '0'):
+            if(text[i+len(ss)] is '0'):
                 count_0 = count_0 + 1
-            print "index "+str(i)+": "+s[i+len(ss)]
+            print "index "+str(i)+": "+text[i+len(ss)]
         total = count_0 + count_1 + count_2
-        print "Find string "+ ss + " Total: "+ str(total)
         if total == 0 and not up:
             length = length + 1
             fall = True
@@ -100,13 +105,34 @@ while True:
             length = length - 1
             up = True
             continue
-        print count_0
-        print count_1
-        print count_2
+        print "Find string "+ ss + " Total: "+ str(total)
+        print "0: "+str(count_0)
+        print "1: "+str(count_1)
+        print "2: "+str(count_2)
+        if (float)(count_1)/(count_1+count_0+count_2)*100==100:
+            print "Bet 1"
+            bet = '1'
+            beted = True
+        if (float)(count_0)/(count_1+count_0+count_2)*100:
+            print "Bet 0"
+            bet = '0'
+            beted = True
+        if (float)(count_2)/(count_1+count_0+count_2)*100:
+            print "Bet 2"
+            bet = '2'
+            beted = True
         print "1: "+str((float)(count_1)/(count_1+count_0+count_2)*100)
         print "0: "+str((float)(count_0)/(count_1+count_0+count_2)*100)
         print "2: "+str((float)(count_2)/(count_1+count_0+count_2)*100)
         print "done"
         break
     next = raw_input("What is next round? 0:bonus 1:orange 2:black")
+    if beted:
+        print 'beted'
+        total_bet = total_bet + 1
+        if bet == next:
+            bet_true = bet_true + 1
+    else:
+        print 'not beted'
+    print "Percent true: "+ str((float)(bet_true)/total_bet*100)
     sc = sc+next
