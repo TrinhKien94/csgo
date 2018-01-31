@@ -24,7 +24,7 @@ hash=OrderedDict()
 # errorf = open("error-empire.txt", 'w')
 driver.implicitly_wait(30)
 print '1'
-url = "https://csgoempire.com/history?seed=832"
+url = "https://csgoempire.com/history?seed=833"
 driver.get(url)
 if is_first_time:
     print '2'
@@ -68,24 +68,26 @@ def substring_indexes(substring, string):
         yield last_found
 total_bet = 0
 bet_true = 0
+total_bet = [0]*30
+bet_true = [0]*30
 while True:
-    count_1 = 0
-    count_2 = 0
-    count_0 = 0
-    total = 0
     length = -30
     fall = False
     up = False
-    bet = '0'
-    beted = False
+    bet = ['']*30
+    beted = [False]*30
     text = s+sc
     text_len = len(text)
     print "Time black 2: " + str(text.count('2'))
     print "Time orange 1: " + str(text.count('1'))
     print "Time bonus 0: " + str(text.count('0'))
-    while total == 0:
-        ss = sc[length:]
+    for n in range(length,-1,1):
+        ss = sc[n:]
         list_index = list(substring_indexes(ss, text))
+        count_1 = 0
+        count_2 = 0
+        count_0 = 0
+        total = 0
         for i in list_index:
             if i+len(ss) == text_len:
                 break;
@@ -95,44 +97,51 @@ while True:
                 count_2 = count_2 + 1
             if(text[i+len(ss)] is '0'):
                 count_0 = count_0 + 1
-            print "index "+str(i)+": "+text[i+len(ss)]
+            # print "index "+str(i)+": "+text[i+len(ss)]
         total = count_0 + count_1 + count_2
-        if total == 0 and not up:
-            length = length + 1
-            fall = True
-            continue
-        if total > 1 and not fall:
-            length = length - 1
-            up = True
-            continue
-        print "Find string "+ ss + " Total: "+ str(total)
-        print "0: "+str(count_0)
-        print "1: "+str(count_1)
-        print "2: "+str(count_2)
-        if (float)(count_1)/(count_1+count_0+count_2)*100==100:
-            print "Bet 1"
-            bet = '1'
-            beted = True
-        if (float)(count_0)/(count_1+count_0+count_2)*100:
-            print "Bet 0"
-            bet = '0'
-            beted = True
-        if (float)(count_2)/(count_1+count_0+count_2)*100:
-            print "Bet 2"
-            bet = '2'
-            beted = True
-        print "1: "+str((float)(count_1)/(count_1+count_0+count_2)*100)
-        print "0: "+str((float)(count_0)/(count_1+count_0+count_2)*100)
-        print "2: "+str((float)(count_2)/(count_1+count_0+count_2)*100)
-        print "done"
-        break
+        # if total == 0 and not up:
+        #     length = length + 1
+        #     fall = True
+        #     continue
+        # if total > 1 and not fall:
+        #     length = length - 1
+        #     up = True
+        #     continue
+        print "Find string "+ ss + " Length: "+str(-n)+ " Total: "+ str(total)
+        index = -n-1
+        if total == 0:
+            beted[index] = False
+            print "No bet"
+        else:
+            # print "0: "+str(count_0)
+            # print "1: "+str(count_1)
+            # print "2: "+str(count_2)
+            beted[index] = False
+            if count_1 > count_2 and count_1 > count_0:
+                print "Bet 1"
+                bet[index] = '1'
+                beted[index] = True
+            if count_0 > count_1 and count_0 > count_2:
+                print "Bet 0"
+                bet[index] = '0'
+                beted[index] = True
+            if count_2 > count_0 and count_2 >count_1:
+                print "Bet 2"
+                bet[index] = '2'
+                beted[index] = True
+            # print "1: "+str((float)(count_1)/(count_1+count_0+count_2)*100)
+            # print "0: "+str((float)(count_0)/(count_1+count_0+count_2)*100)
+            # print "2: "+str((float)(count_2)/(count_1+count_0+count_2)*100)
+            print "done"
     next = raw_input("What is next round? 0:bonus 1:orange 2:black")
-    if beted:
-        print 'beted'
-        total_bet = total_bet + 1
-        if bet == next:
-            bet_true = bet_true + 1
-    else:
-        print 'not beted'
-    print "Percent true: "+ str((float)(bet_true)/total_bet*100)
+    for k in range(0,30,1):
+        if beted[k]:
+            total_bet[k] = total_bet[k] + 1
+            if bet[k] == next:
+                bet_true[k] = bet_true[k] + 1
+    for k in range(0,30,1):
+        if total_bet[k] != 0:
+            print "Percent true of "+str(k)+": "+ str((float)(bet_true[k])/total_bet[k]*100)
+        else:
+            print "Percent true of "+str(k)+": Not ready beted!"
     sc = sc+next
