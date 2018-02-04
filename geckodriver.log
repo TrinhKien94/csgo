@@ -1,584 +1,468 @@
-1517372126605	geckodriver	INFO	geckodriver 0.19.1
-1517372126605	geckodriver	INFO	Listening on 127.0.0.1:7275
-1517372129629	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\CMCGLO~1\\AppData\\Local\\Temp\\rust_mozprofile.Xi51m03MLPLM"
+1517642908997	geckodriver	INFO	geckodriver 0.19.1
+1517642908997	geckodriver	INFO	Listening on 127.0.0.1:62894
+1517642912030	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\GPUACC~1\\AppData\\Local\\Temp\\rust_mozprofile.7sp7YPOee46x"
 *** You are running in headless mode.
-1517372130643	Marionette	INFO	Enabled via --marionette
-1517372133166	Marionette	INFO	Listening on port 7285
-1517372133659	Marionette	WARN	TLS certificate errors will be ignored for this session
-Unable to read VR Path Registry from C:\Users\CMCGlobal\AppData\Local\openvr\openvrpaths.vrpath
-[Parent 9504, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-Unable to read VR Path Registry from C:\Users\CMCGlobal\AppData\Local\openvr\openvrpaths.vrpath
-[Child 7660, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1517642912402	Marionette	INFO	Enabled via --marionette
+1517642913073	Marionette	INFO	Listening on port 62905
+1517642913141	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\GPU Accelerate\AppData\Local\openvr\openvrpaths.vrpath
+[Child 4048, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
 
-[Child 10164, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-Unable to read VR Path Registry from C:\Users\CMCGlobal\AppData\Local\openvr\openvrpaths.vrpath
-[Child 3332, Chrome_ChildThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
-G: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-Unable to read VR Path Registry from C:\Users\CMCGlobal\AppData\Local\openvr\openvrpaths.vrpath
-d 10928, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-read] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Child 13604, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Parent 9156, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-oad" for "https://csgoempire.com/provably-fair#!"
-1517287276408	Marionette	DEBUG	Received DOM event "pagehide" for "https://csgoempire.com/provably-fair#!"
-1517287276411	Marionette	DEBUG	Received DOM event "unload" for "https://csgoempire.com/provably-fair#!"
-1517287277040	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://csgoempire.com/provably-fair"
-1517287277044	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967303"
-1517287277044	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967305"
-1517287277044	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967306"
-1517287277045	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967301"
-1517287277045	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967310"
-1517287277045	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967311"
-1517287277045	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967321"
-1517287277046	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967319"
-[Parent 8404, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-1517287277320	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967329"
-1517287277429	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967334"
-1517287277811	Marionette	DEBUG	Received DOM event "pageshow" for "https://csgoempire.com/provably-fair"
-1517287278171	Marionette	DEBUG	Received DOM event "beforeunload" for "https://csgoempire.com/provably-fair"
-1517287281769	Marionette	DEBUG	Received DOM event "pagehide" for "https://csgoempire.com/provably-fair"
-1517287281770	Marionette	DEBUG	Received DOM event "unload" for "https://csgoempire.com/provably-fair"
-1517287282428	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://csgoempire.com/provably-fair"
-1517287282433	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967324"
-1517287282433	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967325"
-1517287282433	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967328"
-1517287282433	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967333"
-1517287282434	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967339"
-[Parent 8404, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-1517287282717	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967347"
-1517287282886	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967353"
-1517287283000	Marionette	DEBUG	Received DOM event "pageshow" for "https://csgoempire.com/provably-fair"
-[Parent 8404, Gecko_IOThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
-1517287283554	Marionette	DEBUG	Received DOM event "beforeunload" for "https://csgoempire.com/provably-fair"
-1517287287123	Marionette	DEBUG	Received DOM event "pagehide" for "https://csgoempire.com/provably-fair"
-1517287287124	Marionette	DEBUG	Received DOM event "unload" for "https://csgoempire.com/provably-fair"
-1517287287741	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://csgoempire.com/provably-fair"
-1517287287746	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967342"
-1517287287746	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967343"
-1517287287747	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967346"
-1517287287747	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967352"
-1517287287747	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967357"
-1517287288055	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967366"
-1517287288198	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967371"
-1517287288298	Marionette	DEBUG	Received DOM event "pageshow" for "https://csgoempire.com/provably-fair"
-[Parent 8404, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Parent 8404, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-1517287288684	Marionette	DEBUG	Received DOM event "beforeunload" for "https://csgoempire.com/provably-fair"
-1517287291634	Marionette	DEBUG	Received DOM event "pagehide" for "https://csgoempire.com/provably-fair"
-1517287291635	Marionette	DEBUG	Received DOM event "unload" for "https://csgoempire.com/provably-fair"
-1517287292263	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://csgoempire.com/provably-fair"
-1517287292267	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967360"
-1517287292267	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967361"
-1517287292267	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967364"
-1517287292267	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967369"
-1517287292268	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967375"
-1517287292542	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967383"
-1517287292667	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967389"
-1517287292781	Marionette	DEBUG	Received DOM event "pageshow" for "https://csgoempire.com/provably-fair"
-[Parent 8404, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-1517287293272	Marionette	DEBUG	Received DOM event "beforeunload" for "https://csgoempire.com/provably-fair"
-1517287296081	Marionette	DEBUG	Received DOM event "pagehide" for "https://csgoempire.com/provably-fair"
-1517287296082	Marionette	DEBUG	Received DOM event "unload" for "https://csgoempire.com/provably-fair"
-1517287296710	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://csgoempire.com/provably-fair"
-1517287296715	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967378"
-1517287296716	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967379"
-1517287296716	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967382"
-1517287296716	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967387"
-1517287296716	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967393"
-1517287297087	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967401"
-1517287297153	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967405"
-[Parent 8404, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-1517287298138	Marionette	DEBUG	Received DOM event "pageshow" for "https://csgoempire.com/provably-fair"
-1517287298508	Marionette	DEBUG	Received DOM event "beforeunload" for "https://csgoempire.com/provably-fair"
-1517287301339	Marionette	DEBUG	Received DOM event "pagehide" for "https://csgoempire.com/provably-fair"
-1517287301340	Marionette	DEBUG	Received DOM event "unload" for "https://csgoempire.com/provably-fair"
-1517287301965	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://csgoempire.com/provably-fair"
-1517287301970	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967396"
-1517287301970	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967397"
-1517287301970	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967400"
-1517287301970	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967404"
-1517287301971	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967410"
-1517287302244	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967418"
-1517287302339	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967422"
-1517287302454	Marionette	DEBUG	Received DOM event "pageshow" for "https://csgoempire.com/provably-fair"
-[Parent 8404, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-1517287302841	Marionette	DEBUG	Received DOM event "beforeunload" for "https://csgoempire.com/provably-fair"
-1517287305685	Marionette	DEBUG	Received DOM event "pagehide" for "https://csgoempire.com/provably-fair"
-1517287305685	Marionette	DEBUG	Received DOM event "unload" for "https://csgoempire.com/provably-fair"
-1517287306307	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://csgoempire.com/provably-fair"
-1517287306312	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967413"
-1517287306312	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967414"
-1517287306313	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967417"
-1517287306313	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967421"
-1517287306313	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967427"
-1517287306603	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967435"
-1517287306722	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967440"
-1517287306829	Marionette	DEBUG	Received DOM event "pageshow" for "https://csgoempire.com/provably-fair"
-[Parent 8404, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-1517287307292	Marionette	DEBUG	Received DOM event "beforeunload" for "https://csgoempire.com/provably-fair"
-1517287310126	Marionette	DEBUG	Received DOM event "pagehide" for "https://csgoempire.com/provably-fair"
-1517287310127	Marionette	DEBUG	Received DOM event "unload" for "https://csgoempire.com/provably-fair"
-1517287310754	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://csgoempire.com/provably-fair"
-1517287310758	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967430"
-1517287310759	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967431"
-1517287310759	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967434"
-1517287310759	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967439"
-1517287310759	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967445"
-1517287311044	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967453"
-1517287311161	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967458"
-1517287311331	Marionette	DEBUG	Received DOM event "pageshow" for "https://csgoempire.com/provably-fair"
-1517287311864	Marionette	DEBUG	Received DOM event "beforeunload" for "https://csgoempire.com/provably-fair"
-1517287314503	Marionette	DEBUG	Received DOM event "pagehide" for "https://csgoempire.com/provably-fair"
-1517287314504	Marionette	DEBUG	Received DOM event "unload" for "https://csgoempire.com/provably-fair"
-1517287315018	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967448"
-1517287315019	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967449"
-1517287315019	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967452"
-1517287315019	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967457"
-1517287315019	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967463"
-1517287315235	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://csgoempire.com/provably-fair"
-1517287315540	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967471"
-1517287315810	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967478"
-1517287315917	Marionette	DEBUG	Received DOM event "pageshow" for "https://csgoempire.com/provably-fair"
-[Parent 8404, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-1517287316392	Marionette	DEBUG	Received DOM event "beforeunload" for "https://csgoempire.com/provably-fair"
-1517287319198	Marionette	DEBUG	Received DOM event "pagehide" for "https://csgoempire.com/provably-fair"
-1517287319199	Marionette	DEBUG	Received DOM event "unload" for "https://csgoempire.com/provably-fair"
-1517287319838	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://csgoempire.com/provably-fair"
-1517287319843	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967466"
-1517287319843	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967467"
-1517287319844	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967470"
-1517287319844	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967476"
-1517287319844	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967481"
-1517287320236	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967489"
-1517287320348	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967495"
-1517287320466	Marionette	DEBUG	Received DOM event "pageshow" for "https://csgoempire.com/provably-fair"
-1517287320903	Marionette	DEBUG	Received DOM event "beforeunload" for "https://csgoempire.com/provably-fair"
-1517287323556	Marionette	DEBUG	Received DOM event "pagehide" for "https://csgoempire.com/provably-fair"
-1517287323557	Marionette	DEBUG	Received DOM event "unload" for "https://csgoempire.com/provably-fair"
-1517287324292	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://csgoempire.com/provably-fair"
-1517287324293	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967484"
-1517287324293	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967485"
-1517287324293	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967488"
-1517287324294	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967494"
-1517287324294	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967499"
-1517287324604	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967507"
-1517287324839	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967513"
-1517287324960	Marionette	DEBUG	Received DOM event "pageshow" for "https://csgoempire.com/provably-fair"
-[Parent 8404, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-1517287325371	Marionette	DEBUG	Received DOM event "beforeunload" for "https://csgoempire.com/provably-fair"
-1517287328224	Marionette	DEBUG	Received DOM event "pagehide" for "https://csgoempire.com/provably-fair"
-1517287328225	Marionette	DEBUG	Received DOM event "unload" for "https://csgoempire.com/provably-fair"
-1517287328914	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://csgoempire.com/provably-fair"
-1517287328915	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967502"
-1517287328915	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967503"
-1517287328916	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967506"
-1517287328916	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967512"
-1517287328916	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967517"
-1517287329203	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967525"
-1517287329307	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967529"
-1517287329427	Marionette	DEBUG	Received DOM event "pageshow" for "https://csgoempire.com/provably-fair"
-[Parent 8404, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-1517287329992	Marionette	DEBUG	Received DOM event "beforeunload" for "https://csgoempire.com/provably-fair"
-1517287332784	Marionette	DEBUG	Received DOM event "pagehide" for "https://csgoempire.com/provably-fair"
-1517287332785	Marionette	DEBUG	Received DOM event "unload" for "https://csgoempire.com/provably-fair"
-1517287333467	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://csgoempire.com/provably-fair"
-1517287333468	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967520"
-1517287333468	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967521"
-1517287333469	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967524"
-1517287333469	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967528"
-1517287333469	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967534"
-1517287333856	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967542"
-1517287333932	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967547"
-1517287334053	Marionette	DEBUG	Received DOM event "pageshow" for "https://csgoempire.com/provably-fair"
-1517287334452	Marionette	DEBUG	Received DOM event "beforeunload" for "https://csgoempire.com/provably-fair"
-1517287337125	Marionette	DEBUG	Received DOM event "pagehide" for "https://csgoempire.com/provably-fair"
-1517287337126	Marionette	DEBUG	Received DOM event "unload" for "https://csgoempire.com/provably-fair"
-1517287337831	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://csgoempire.com/provably-fair"
-1517287337832	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967537"
-1517287337832	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967538"
-1517287337832	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967541"
-1517287337833	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967546"
-1517287337833	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967551"
-1517287338199	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967559"
-1517287338355	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967565"
-1517287338461	Marionette	DEBUG	Received DOM event "pageshow" for "https://csgoempire.com/provably-fair"
-1517287338827	Marionette	DEBUG	Received DOM event "beforeunload" for "https://csgoempire.com/provably-fair"
-1517287341481	Marionette	DEBUG	Received DOM event "pagehide" for "https://csgoempire.com/provably-fair"
-1517287341482	Marionette	DEBUG	Received DOM event "unload" for "https://csgoempire.com/provably-fair"
-1517287342160	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://csgoempire.com/provably-fair"
-1517287342175	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967554"
-1517287342176	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967555"
-1517287342176	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967558"
-1517287342176	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967564"
-1517287342176	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967569"
-1517287342463	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967577"
-1517287342604	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967583"
-1517287342718	Marionette	DEBUG	Received DOM event "pageshow" for "https://csgoempire.com/provably-fair"
-[Parent 8404, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-1517287343111	Marionette	DEBUG	Received DOM event "beforeunload" for "https://csgoempire.com/provably-fair"
-1517287345918	Marionette	DEBUG	Received DOM event "pagehide" for "https://csgoempire.com/provably-fair"
-1517287345919	Marionette	DEBUG	Received DOM event "unload" for "https://csgoempire.com/provably-fair"
-1517287346570	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://csgoempire.com/provably-fair"
-1517287346574	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967572"
-1517287346574	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967573"
-1517287346575	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967576"
-1517287346575	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967582"
-1517287346575	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967587"
-1517287346891	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967595"
-1517287346955	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967599"
-1517287347077	Marionette	DEBUG	Received DOM event "pageshow" for "https://csgoempire.com/provably-fair"
-1517287347448	Marionette	DEBUG	Received DOM event "beforeunload" for "https://csgoempire.com/provably-fair"
-1517287350051	Marionette	DEBUG	Received DOM event "pagehide" for "https://csgoempire.com/provably-fair"
-1517287350052	Marionette	DEBUG	Received DOM event "unload" for "https://csgoempire.com/provably-fair"
-1517287350699	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://csgoempire.com/provably-fair"
-1517287350700	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967590"
-1517287350700	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967591"
-1517287350700	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967594"
-1517287350701	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967598"
-1517287350701	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967604"
-1517287350981	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967612"
-1517287351073	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967616"
-1517287351205	Marionette	DEBUG	Received DOM event "pageshow" for "https://csgoempire.com/provably-fair"
-[Parent 8404, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-1517287351675	Marionette	DEBUG	Received DOM event "beforeunload" for "https://csgoempire.com/provably-fair"
-1517287354402	Marionette	DEBUG	Received DOM event "pagehide" for "https://csgoempire.com/provably-fair"
-1517287354403	Marionette	DEBUG	Received DOM event "unload" for "https://csgoempire.com/provably-fair"
-1517287355032	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://csgoempire.com/provably-fair"
-1517287355037	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967607"
-1517287355037	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967608"
-1517287355037	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967611"
-1517287355038	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967615"
-1517287355038	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967621"
-1517287355383	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967629"
-1517287355468	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967633"
-1517287355575	Marionette	DEBUG	Received DOM event "pageshow" for "https://csgoempire.com/provably-fair"
+[Child 13452, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+ld/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
 
-###!!! [Parent][MessageChannel] Error: (msgtype=0x100033,name=PBackground::Msg_DispatchLocalStorageChange) Channel closing: too late to send/recv, messages will be lost
+###!!! [Parent][MessageChannel] Error: (msgtype=0x100037,name=PBackground::Msg_DispatchLocalStorageChange) Channel closing: too late to send/recv, messages will be lost
 
-1517287356180	Marionette	DEBUG	Received DOM event "beforeunload" for "https://csgoempire.com/provably-fair"
-1517287359122	Marionette	DEBUG	Received DOM event "pagehide" for "https://csgoempire.com/provably-fair"
-1517287359123	Marionette	DEBUG	Received DOM event "unload" for "https://csgoempire.com/provably-fair"
-1517287359757	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://csgoempire.com/provably-fair"
-1517287359761	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967624"
-1517287359762	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967625"
-1517287359762	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967628"
-1517287359762	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967632"
-1517287359762	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967638"
-1517287360069	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967646"
-1517287360136	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967650"
-1517287360247	Marionette	DEBUG	Received DOM event "pageshow" for "https://csgoempire.com/provably-fair"
-[Parent 8404, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Parent 8404, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-1517287360610	Marionette	DEBUG	Received DOM event "beforeunload" for "https://csgoempire.com/provably-fair"
-1517287363158	Marionette	DEBUG	Received DOM event "pagehide" for "https://csgoempire.com/provably-fair"
-1517287363159	Marionette	DEBUG	Received DOM event "unload" for "https://csgoempire.com/provably-fair"
-1517287363794	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://csgoempire.com/provably-fair"
-1517287363798	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967641"
-1517287363799	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967642"
-1517287363799	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967645"
-1517287363799	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967649"
-1517287363799	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967655"
-1517287364089	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967663"
-1517287364189	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967667"
-1517287364307	Marionette	DEBUG	Received DOM event "pageshow" for "https://csgoempire.com/provably-fair"
-[Parent 8404, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
 
-###!!! [Parent][MessageChannel] Error: (msgtype=0x100033,name=PBackground::Msg_DispatchLocalStorageChange) Channel closing: too late to send/recv, messages will be lost
+###!!! [Parent][MessageChannel] Error: (msgtype=0x100037,name=PBackground::Msg_DispatchLocalStorageChange) Channel closing: too late to send/recv, messages will be lost
 
-1517287364701	Marionette	DEBUG	Received DOM event "beforeunload" for "https://csgoempire.com/provably-fair"
-1517287367296	Marionette	DEBUG	Received DOM event "pagehide" for "https://csgoempire.com/provably-fair"
-1517287367296	Marionette	DEBUG	Received DOM event "unload" for "https://csgoempire.com/provably-fair"
-1517287367940	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://csgoempire.com/provably-fair"
-1517287367945	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967658"
-1517287367945	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967659"
-1517287367945	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967662"
-1517287367945	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967666"
-1517287367946	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967672"
-1517287368255	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967680"
-1517287368327	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967684"
-1517287368431	Marionette	DEBUG	Received DOM event "pageshow" for "https://csgoempire.com/provably-fair"
-[Parent 8404, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-1517287368818	Marionette	DEBUG	Received DOM event "beforeunload" for "https://csgoempire.com/provably-fair"
-1517287371361	Marionette	DEBUG	Received DOM event "pagehide" for "https://csgoempire.com/provably-fair"
-1517287371362	Marionette	DEBUG	Received DOM event "unload" for "https://csgoempire.com/provably-fair"
-1517287372067	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://csgoempire.com/provably-fair"
-1517287372084	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967675"
-1517287372084	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967676"
-1517287372084	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967679"
-1517287372085	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967683"
-1517287372085	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967689"
-1517287372369	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967698"
-1517287372470	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967702"
-1517287372583	Marionette	DEBUG	Received DOM event "pageshow" for "https://csgoempire.com/provably-fair"
-[Parent 8404, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Parent 8404, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-1517287372994	Marionette	DEBUG	Received DOM event "beforeunload" for "https://csgoempire.com/provably-fair"
-1517287376068	Marionette	DEBUG	Received DOM event "pagehide" for "https://csgoempire.com/provably-fair"
-1517287376069	Marionette	DEBUG	Received DOM event "unload" for "https://csgoempire.com/provably-fair"
-1517287376694	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://csgoempire.com/provably-fair"
-1517287376699	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967692"
-1517287376699	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967693"
-1517287376700	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967696"
-1517287376700	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967701"
-1517287376700	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967707"
-1517287376984	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967715"
-1517287377081	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967719"
-[Parent 8404, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Parent 8404, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-1517287378646	Marionette	DEBUG	Received DOM event "pageshow" for "https://csgoempire.com/provably-fair"
-1517287379048	Marionette	DEBUG	Received DOM event "beforeunload" for "https://csgoempire.com/provably-fair"
-1517287381867	Marionette	DEBUG	Received DOM event "pagehide" for "https://csgoempire.com/provably-fair"
-1517287381868	Marionette	DEBUG	Received DOM event "unload" for "https://csgoempire.com/provably-fair"
-1517287382508	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://csgoempire.com/provably-fair"
-1517287382512	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967710"
-1517287382512	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967711"
-1517287382513	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967714"
-1517287382513	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967718"
-1517287382513	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967724"
-1517287382924	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967733"
-1517287382970	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967737"
-1517287383068	Marionette	DEBUG	Received DOM event "pageshow" for "https://csgoempire.com/provably-fair"
-[Parent 8404, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-1517287383495	Marionette	DEBUG	Received DOM event "beforeunload" for "https://csgoempire.com/provably-fair"
-1517287386157	Marionette	DEBUG	Received DOM event "pagehide" for "https://csgoempire.com/provably-fair"
-1517287386158	Marionette	DEBUG	Received DOM event "unload" for "https://csgoempire.com/provably-fair"
-1517287386809	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://csgoempire.com/provably-fair"
-1517287386814	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967727"
-1517287386814	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967728"
-1517287386814	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967731"
-1517287386814	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967732"
-1517287386814	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967741"
-1517287387094	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967749"
-1517287387185	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967753"
-1517287387306	Marionette	DEBUG	Received DOM event "pageshow" for "https://csgoempire.com/provably-fair"
-[Parent 8404, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Parent 8404, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-1517287387781	Marionette	DEBUG	Received DOM event "beforeunload" for "https://csgoempire.com/provably-fair"
-1517287390564	Marionette	DEBUG	Received DOM event "pagehide" for "https://csgoempire.com/provably-fair"
-1517287390565	Marionette	DEBUG	Received DOM event "unload" for "https://csgoempire.com/provably-fair"
-1517287391205	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://csgoempire.com/provably-fair"
-1517287391209	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967744"
-1517287391209	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967745"
-1517287391209	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967748"
-1517287391210	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967752"
-1517287391210	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967758"
-1517287391489	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967766"
-1517287391582	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967770"
-1517287391932	Marionette	DEBUG	Received DOM event "pageshow" for "https://csgoempire.com/provably-fair"
-1517287392304	Marionette	DEBUG	Received DOM event "beforeunload" for "https://csgoempire.com/provably-fair"
-1517287394989	Marionette	DEBUG	Received DOM event "pagehide" for "https://csgoempire.com/provably-fair"
-1517287394990	Marionette	DEBUG	Received DOM event "unload" for "https://csgoempire.com/provably-fair"
-1517287395636	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://csgoempire.com/provably-fair"
-1517287395646	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967761"
-1517287395646	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967762"
-1517287395646	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967765"
-1517287395646	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967769"
-1517287395646	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967775"
-1517287395940	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967783"
-1517287396038	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967787"
-1517287396153	Marionette	DEBUG	Received DOM event "pageshow" for "https://csgoempire.com/provably-fair"
-[Parent 8404, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-1517287396544	Marionette	DEBUG	Received DOM event "beforeunload" for "https://csgoempire.com/provably-fair"
-1517287399311	Marionette	DEBUG	Received DOM event "pagehide" for "https://csgoempire.com/provably-fair"
-1517287399312	Marionette	DEBUG	Received DOM event "unload" for "https://csgoempire.com/provably-fair"
-1517287399971	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://csgoempire.com/provably-fair"
-1517287399975	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967778"
-1517287399976	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967779"
-1517287399976	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967782"
-1517287399976	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967786"
-1517287399977	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967792"
-1517287400303	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967801"
-1517287400401	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967805"
-1517287400520	Marionette	DEBUG	Received DOM event "pageshow" for "https://csgoempire.com/provably-fair"
-1517287400893	Marionette	DEBUG	Received DOM event "beforeunload" for "https://csgoempire.com/provably-fair"
-1517287403470	Marionette	DEBUG	Received DOM event "pagehide" for "https://csgoempire.com/provably-fair"
-1517287403471	Marionette	DEBUG	Received DOM event "unload" for "https://csgoempire.com/provably-fair"
-1517287404091	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://csgoempire.com/provably-fair"
-1517287404095	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967795"
-1517287404095	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967796"
-1517287404096	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967799"
-1517287404096	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967804"
-1517287404096	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967810"
-1517287404376	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967818"
-1517287404468	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967822"
-1517287404588	Marionette	DEBUG	Received DOM event "pageshow" for "https://csgoempire.com/provably-fair"
-[Parent 8404, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Parent 8404, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-1517287404978	Marionette	DEBUG	Received DOM event "beforeunload" for "https://csgoempire.com/provably-fair"
-1517287407575	Marionette	DEBUG	Received DOM event "pagehide" for "https://csgoempire.com/provably-fair"
-1517287407576	Marionette	DEBUG	Received DOM event "unload" for "https://csgoempire.com/provably-fair"
-1517287408197	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://csgoempire.com/provably-fair"
-1517287408201	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967813"
-1517287408201	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967814"
-1517287408201	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967817"
-1517287408202	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967821"
-1517287408202	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967827"
-1517287408513	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967835"
-1517287408579	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967839"
-1517287408686	Marionette	DEBUG	Received DOM event "pageshow" for "https://csgoempire.com/provably-fair"
-[Parent 8404, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-1517287409056	Marionette	DEBUG	Received DOM event "beforeunload" for "https://csgoempire.com/provably-fair"
-1517287411804	Marionette	DEBUG	Received DOM event "pagehide" for "https://csgoempire.com/provably-fair"
-1517287411805	Marionette	DEBUG	Received DOM event "unload" for "https://csgoempire.com/provably-fair"
-1517287412426	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://csgoempire.com/provably-fair"
-1517287412431	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967830"
-1517287412432	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967831"
-1517287412432	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967834"
-1517287412432	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967838"
-1517287412432	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967844"
-1517287412715	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967852"
-1517287412878	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967858"
-1517287412988	Marionette	DEBUG	Received DOM event "pageshow" for "https://csgoempire.com/provably-fair"
-1517287413466	Marionette	DEBUG	Received DOM event "beforeunload" for "https://csgoempire.com/provably-fair"
-1517287416371	Marionette	DEBUG	Received DOM event "pagehide" for "https://csgoempire.com/provably-fair"
-1517287416372	Marionette	DEBUG	Received DOM event "unload" for "https://csgoempire.com/provably-fair"
-1517287417005	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://csgoempire.com/provably-fair"
-1517287417009	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967847"
-1517287417009	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967848"
-1517287417009	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967851"
-1517287417010	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967857"
-1517287417010	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967862"
-1517287417295	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967870"
-1517287417384	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967874"
-1517287417502	Marionette	DEBUG	Received DOM event "pageshow" for "https://csgoempire.com/provably-fair"
-[Parent 8404, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-1517287417876	Marionette	DEBUG	Received DOM event "beforeunload" for "https://csgoempire.com/provably-fair"
-1517287420615	Marionette	DEBUG	Received DOM event "pagehide" for "https://csgoempire.com/provably-fair"
-1517287420616	Marionette	DEBUG	Received DOM event "unload" for "https://csgoempire.com/provably-fair"
-1517287421245	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://csgoempire.com/provably-fair"
-1517287421250	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967865"
-1517287421250	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967866"
-1517287421251	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967869"
-1517287421251	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967873"
-1517287421251	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967879"
-1517287421581	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967887"
-1517287421627	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967892"
-1517287421746	Marionette	DEBUG	Received DOM event "pageshow" for "https://csgoempire.com/provably-fair"
-[Parent 8404, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-1517287422131	Marionette	DEBUG	Received DOM event "beforeunload" for "https://csgoempire.com/provably-fair"
-1517287425023	Marionette	DEBUG	Received DOM event "pagehide" for "https://csgoempire.com/provably-fair"
-1517287425023	Marionette	DEBUG	Received DOM event "unload" for "https://csgoempire.com/provably-fair"
-1517287425643	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://csgoempire.com/provably-fair"
-1517287425648	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967882"
-1517287425648	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967883"
-1517287425648	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967886"
-1517287425649	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967889"
-1517287425649	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967896"
-1517287425954	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967904"
-1517287426023	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967908"
-1517287426132	Marionette	DEBUG	Received DOM event "pageshow" for "https://csgoempire.com/provably-fair"
-[Parent 8404, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-1517287426530	Marionette	DEBUG	Received DOM event "beforeunload" for "https://csgoempire.com/provably-fair"
-1517287429243	Marionette	DEBUG	Received DOM event "pagehide" for "https://csgoempire.com/provably-fair"
-1517287429244	Marionette	DEBUG	Received DOM event "unload" for "https://csgoempire.com/provably-fair"
-1517287429873	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://csgoempire.com/provably-fair"
-1517287429878	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967899"
-1517287429879	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967900"
-1517287429879	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967903"
-1517287429879	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967907"
-1517287429879	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967913"
-1517287430158	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967921"
-1517287430257	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967925"
-1517287430637	Marionette	DEBUG	Received DOM event "pageshow" for "https://csgoempire.com/provably-fair"
-1517287431004	Marionette	DEBUG	Received DOM event "beforeunload" for "https://csgoempire.com/provably-fair"
-1517287433568	Marionette	DEBUG	Received DOM event "pagehide" for "https://csgoempire.com/provably-fair"
-1517287433569	Marionette	DEBUG	Received DOM event "unload" for "https://csgoempire.com/provably-fair"
-1517287434181	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://csgoempire.com/provably-fair"
-1517287434186	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967916"
-1517287434186	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967917"
-1517287434186	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967920"
-1517287434186	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967924"
-1517287434187	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967930"
-1517287434497	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967938"
-1517287434561	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967942"
-1517287434679	Marionette	DEBUG	Received DOM event "pageshow" for "https://csgoempire.com/provably-fair"
-[Parent 8404, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-1517287435059	Marionette	DEBUG	Received DOM event "beforeunload" for "https://csgoempire.com/provably-fair"
-1517287437775	Marionette	DEBUG	Received DOM event "pagehide" for "https://csgoempire.com/provably-fair"
-1517287437776	Marionette	DEBUG	Received DOM event "unload" for "https://csgoempire.com/provably-fair"
-1517287438403	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://csgoempire.com/provably-fair"
-1517287438408	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967933"
-1517287438409	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967934"
-1517287438409	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967937"
-1517287438410	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967941"
-1517287438410	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967947"
-1517287438725	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967955"
-1517287438797	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967959"
-1517287438907	Marionette	DEBUG	Received DOM event "pageshow" for "https://csgoempire.com/provably-fair"
 
-###!!! [Parent][MessageChannel] Error: (msgtype=0x100033,name=PBackground::Msg_DispatchLocalStorageChange) Channel closing: too late to send/recv, messages will be lost
+###!!! [Parent][MessageChannel] Error: (msgtype=0x100037,name=PBackground::Msg_DispatchLocalStorageChange) Channel closing: too late to send/recv, messages will be lost
 
-1517287439254	Marionette	DEBUG	Received DOM event "beforeunload" for "https://csgoempire.com/provably-fair"
-1517287442058	Marionette	DEBUG	Received DOM event "pagehide" for "https://csgoempire.com/provably-fair"
-1517287442059	Marionette	DEBUG	Received DOM event "unload" for "https://csgoempire.com/provably-fair"
-1517287442687	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://csgoempire.com/provably-fair"
-1517287442691	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967950"
-1517287442691	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967951"
-1517287442691	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967954"
-1517287442692	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967958"
-1517287442692	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967964"
-1517287443001	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967972"
-1517287443064	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967976"
-1517287443175	Marionette	DEBUG	Received DOM event "pageshow" for "https://csgoempire.com/provably-fair"
-1517287443547	Marionette	DEBUG	Received DOM event "beforeunload" for "https://csgoempire.com/provably-fair"
-[Parent 8404, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
 
-###!!! [Parent][MessageChannel] Error: (msgtype=0x100033,name=PBackground::Msg_DispatchLocalStorageChange) Channel closing: too late to send/recv, messages will be lost
+###!!! [Parent][MessageChannel] Error: (msgtype=0x100037,name=PBackground::Msg_DispatchLocalStorageChange) Channel closing: too late to send/recv, messages will be lost
 
-1517287446192	Marionette	DEBUG	Received DOM event "pagehide" for "https://csgoempire.com/provably-fair"
-1517287446192	Marionette	DEBUG	Received DOM event "unload" for "https://csgoempire.com/provably-fair"
-1517287446832	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://csgoempire.com/provably-fair"
-1517287446836	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967967"
-1517287446836	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967968"
-1517287446837	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967971"
-1517287446837	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967975"
-1517287446837	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967981"
-1517287446837	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967983"
-1517287446838	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967984"
-1517287447154	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967993"
-1517287447215	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967997"
-1517287447335	Marionette	DEBUG	Received DOM event "pageshow" for "https://csgoempire.com/provably-fair"
-1517287447780	Marionette	DEBUG	Received DOM event "beforeunload" for "https://csgoempire.com/provably-fair"
-1517287450644	Marionette	DEBUG	Received DOM event "pagehide" for "https://csgoempire.com/provably-fair"
-1517287450645	Marionette	DEBUG	Received DOM event "unload" for "https://csgoempire.com/provably-fair"
-1517287451271	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://csgoempire.com/provably-fair"
-1517287451276	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967988"
-1517287451277	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967989"
-1517287451277	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967992"
-1517287451277	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967996"
-1517287451277	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294968002"
-1517287451278	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294968004"
-1517287451278	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294968005"
-1517287451614	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294968014"
-1517287451683	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294968018"
-1517287451796	Marionette	DEBUG	Received DOM event "pageshow" for "https://csgoempire.com/provably-fair"
-1517287452231	Marionette	DEBUG	Received DOM event "beforeunload" for "https://csgoempire.com/provably-fair"
-1517287455118	Marionette	DEBUG	Received DOM event "pagehide" for "https://csgoempire.com/provably-fair"
-1517287455119	Marionette	DEBUG	Received DOM event "unload" for "https://csgoempire.com/provably-fair"
-1517287455763	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://csgoempire.com/provably-fair"
-1517287455767	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294968009"
-1517287455768	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294968010"
-1517287455768	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294968013"
-1517287455768	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294968017"
-1517287455768	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294968023"
-1517287455768	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294968025"
-1517287455769	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294968026"
-1517287456052	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294968036"
-1517287456161	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294968040"
-1517287456272	Marionette	DEBUG	Received DOM event "pageshow" for "https://csgoempire.com/provably-fair"
-[Parent 8404, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
 
-###!!! [Parent][MessageChannel] Error: (msgtype=0x100033,name=PBackground::Msg_DispatchLocalStorageChange) Channel closing: too late to send/recv, messages will be lost
+###!!! [Parent][MessageChannel] Error: (msgtype=0x100037,name=PBackground::Msg_DispatchLocalStorageChange) Channel closing: too late to send/recv, messages will be lost
 
-1517287456697	Marionette	DEBUG	Received DOM event "beforeunload" for "https://csgoempire.com/provably-fair"
-1517287459459	Marionette	DEBUG	Received DOM event "pagehide" for "https://csgoempire.com/provably-fair"
-1517287459460	Marionette	DEBUG	Received DOM event "unload" for "https://csgoempire.com/provably-fair"
-1517287460087	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://csgoempire.com/provably-fair"
-1517287460091	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294968030"
-1517287460092	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294968031"
-1517287460092	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294968034"
-1517287460092	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294968039"
-1517287460092	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294968045"
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x100037,name=PBackground::Msg_DispatchLocalStorageChange) Channel closing: too late to send/recv, messages will be lost
+
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x100037,name=PBackground::Msg_DispatchLocalStorageChange) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x100037,name=PBackground::Msg_DispatchLocalStorageChange) Channel closing: too late to send/recv, messages will be lost
+
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x100037,name=PBackground::Msg_DispatchLocalStorageChange) Channel closing: too late to send/recv, messages will be lost
+
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x100037,name=PBackground::Msg_DispatchLocalStorageChange) Channel closing: too late to send/recv, messages will be lost
+
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x100037,name=PBackground::Msg_DispatchLocalStorageChange) Channel closing: too late to send/recv, messages will be lost
+
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x100037,name=PBackground::Msg_DispatchLocalStorageChange) Channel closing: too late to send/recv, messages will be lost
+
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x100037,name=PBackground::Msg_DispatchLocalStorageChange) Channel closing: too late to send/recv, messages will be lost
+
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x100037,name=PBackground::Msg_DispatchLocalStorageChange) Channel closing: too late to send/recv, messages will be lost
+
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+outer-window-destroyed" for "4294968045"
 1517287460092	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294968047"
 1517287460092	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294968048"
 1517287460375	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294968057"

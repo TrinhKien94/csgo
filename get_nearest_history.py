@@ -24,7 +24,7 @@ hash=OrderedDict()
 # errorf = open("error-empire.txt", 'w')
 driver.implicitly_wait(30)
 print '1'
-url = "https://csgoempire.com/history?seed=833"
+url = "https://csgoempire.com/history?seed=836"
 driver.get(url)
 if is_first_time:
     print '2'

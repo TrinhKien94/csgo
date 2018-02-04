@@ -20,10 +20,10 @@ driver.implicitly_wait(30)
 base_url = "https://www.katalon.com/"
 is_first_time = True
 hash=OrderedDict()
-f1 = open("info-empire.txt", 'w')
+f1 = open("info-empire1.txt", 'w')
 errorf = open("error-empire.txt", 'w')
 
-for j in range(0,831,1):
+for j in range(0,836,1):
     try:
         driver.implicitly_wait(30)
         print '1'

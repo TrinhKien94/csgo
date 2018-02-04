@@ -1,0 +1,148 @@
+"C:\Users\GPU Accelerate\PycharmProjects\untitled\venv\Scripts\python.exe" "C:/Users/GPU Accelerate/PycharmProjects/csgo/get_nearest_history1.py"
+Percent true of 0: Not ready beted!
+1: Percent true: 46.5956433758 Total bet: 16802 Max continue lose: 13
+1: Percent_ct: 46.0544815466Total bet ct: 11380 Continue ct lose: 15
+1: Percent_t: 47.7314644043Total bet t: 5422 Continue t lose: 10
+1: Percent_bonus: 0Total bet bonus: 0 Continue bonus lose: 0
+1: Percent_abover 70: 0Total bet > 70: 0 Continue > 70 lose: 0
+1: Percent_under 70: 46.5956433758Total bet < 70: 16802 Continue < 70 lose: 13
+2: Percent true: 46.2274808253 Total bet: 16819 Max continue lose: 12
+2: Percent_ct: 45.6147258588Total bet ct: 10159 Continue ct lose: 15
+2: Percent_t: 47.1621621622Total bet t: 6660 Continue t lose: 13
+2: Percent_bonus: 0Total bet bonus: 0 Continue bonus lose: 0
+2: Percent_abover 70: 0Total bet > 70: 0 Continue > 70 lose: 0
+2: Percent_under 70: 46.2274808253Total bet < 70: 16819 Continue < 70 lose: 12
+3: Percent true: 45.7008174712 Total bet: 16759 Max continue lose: 12
+3: Percent_ct: 45.2548243444Total bet ct: 10105 Continue ct lose: 13
+3: Percent_t: 46.378118425Total bet t: 6654 Continue t lose: 12
+3: Percent_bonus: 0Total bet bonus: 0 Continue bonus lose: 0
+3: Percent_abover 70: 0Total bet > 70: 0 Continue > 70 lose: 0
+3: Percent_under 70: 45.7008174712Total bet < 70: 16759 Continue < 70 lose: 12
+4: Percent true: 46.4643453375 Total bet: 16772 Max continue lose: 15
+4: Percent_ct: 45.6495567473Total bet ct: 9137 Continue ct lose: 13
+4: Percent_t: 47.4394237066Total bet t: 7635 Continue t lose: 12
+4: Percent_bonus: 0Total bet bonus: 0 Continue bonus lose: 0
+4: Percent_abover 70: 50.0Total bet > 70: 2 Continue > 70 lose: 1
+4: Percent_under 70: 46.4639236732Total bet < 70: 16770 Continue < 70 lose: 15
+5: Percent true: 46.7769878726 Total bet: 16739 Max continue lose: 12
+5: Percent_ct: 45.9175329985Total bet ct: 8561 Continue ct lose: 14
+5: Percent_t: 47.6766935681Total bet t: 8178 Continue t lose: 13
+5: Percent_bonus: 0Total bet bonus: 0 Continue bonus lose: 0
+5: Percent_abover 70: 55.5555555556Total bet > 70: 9 Continue > 70 lose: 2
+5: Percent_under 70: 46.7722653915Total bet < 70: 16730 Continue < 70 lose: 14
+6: Percent true: 46.1395404643 Total bet: 16669 Max continue lose: 14
+6: Percent_ct: 45.3651197778Total bet ct: 8641 Continue ct lose: 17
+6: Percent_t: 46.9730941704Total bet t: 8028 Continue t lose: 11
+6: Percent_bonus: 0Total bet bonus: 0 Continue bonus lose: 0
+6: Percent_abover 70: 45.8333333333Total bet > 70: 24 Continue > 70 lose: 6
+6: Percent_under 70: 46.1399819766Total bet < 70: 16645 Continue < 70 lose: 14
+7: Percent true: 46.5805516992 Total bet: 16567 Max continue lose: 16
+7: Percent_ct: 45.9290953545Total bet ct: 8180 Continue ct lose: 14
+7: Percent_t: 47.2159294146Total bet t: 8387 Continue t lose: 13
+7: Percent_bonus: 0Total bet bonus: 0 Continue bonus lose: 0
+7: Percent_abover 70: 44.7058823529Total bet > 70: 85 Continue > 70 lose: 5
+7: Percent_under 70: 46.5902196335Total bet < 70: 16482 Continue < 70 lose: 16
+8: Percent true: 46.4062215201 Total bet: 16459 Max continue lose: 13
+8: Percent_ct: 45.7892861385Total bet ct: 8419 Continue ct lose: 17
+8: Percent_t: 47.052238806Total bet t: 8040 Continue t lose: 12
+8: Percent_bonus: 0Total bet bonus: 0 Continue bonus lose: 0
+8: Percent_abover 70: 43.8247011952Total bet > 70: 251 Continue > 70 lose: 9
+8: Percent_under 70: 46.4461994077Total bet < 70: 16208 Continue < 70 lose: 13
+9: Percent true: 46.2142283207 Total bet: 16179 Max continue lose: 13
+9: Percent_ct: 45.5424015463Total bet ct: 8278 Continue ct lose: 13
+9: Percent_t: 46.9597162402Total bet t: 7894 Continue t lose: 11
+9: Percent_bonus: 0.0Total bet bonus: 7 Continue bonus lose: 7
+9: Percent_abover 70: 47.1726190476Total bet > 70: 672 Continue > 70 lose: 12
+9: Percent_under 70: 46.1726962017Total bet < 70: 15507 Continue < 70 lose: 15
+10: Percent true: 46.5448567996 Total bet: 15817 Max continue lose: 13
+10: Percent_ct: 46.0966542751Total bet ct: 7801 Continue ct lose: 19
+10: Percent_t: 47.0985492746Total bet t: 7996 Continue t lose: 11
+10: Percent_bonus: 0.0Total bet bonus: 20 Continue bonus lose: 20
+10: Percent_abover 70: 47.4847560976Total bet > 70: 1312 Continue > 70 lose: 9
+10: Percent_under 70: 46.459841434Total bet < 70: 14505 Continue < 70 lose: 15
+11: Percent true: 46.4110713813 Total bet: 15102 Max continue lose: 16
+11: Percent_ct: 45.8378232759Total bet ct: 7424 Continue ct lose: 15
+11: Percent_t: 47.2167648985Total bet t: 7635 Continue t lose: 11
+11: Percent_bonus: 2.32558139535Total bet bonus: 43 Continue bonus lose: 37
+11: Percent_abover 70: 46.1381283204Total bet > 70: 2447 Continue > 70 lose: 13
+11: Percent_under 70: 46.4638482813Total bet < 70: 12655 Continue < 70 lose: 13
+12: Percent true: 46.2687609075 Total bet: 14325 Max continue lose: 17
+12: Percent_ct: 46.0048083722Total bet ct: 7071 Continue ct lose: 13
+12: Percent_t: 47.1130993989Total bet t: 7153 Continue t lose: 13
+12: Percent_bonus: 4.9504950495Total bet bonus: 101 Continue bonus lose: 23
+12: Percent_abover 70: 45.1084215835Total bet > 70: 3966 Continue > 70 lose: 12
+12: Percent_under 70: 46.7130031856Total bet < 70: 10359 Continue < 70 lose: 13
+13: Percent true: 45.8538840937 Total bet: 12976 Max continue lose: 14
+13: Percent_ct: 45.3976205385Total bet ct: 6388 Continue ct lose: 13
+13: Percent_t: 47.0770182493Total bet t: 6466 Continue t lose: 14
+13: Percent_bonus: 4.91803278689Total bet bonus: 122 Continue bonus lose: 31
+13: Percent_abover 70: 45.6287893605Total bet > 70: 5113 Continue > 70 lose: 16
+13: Percent_under 70: 46.0002543558Total bet < 70: 7863 Continue < 70 lose: 15
+14: Percent true: 45.8735262594 Total bet: 11196 Max continue lose: 15
+14: Percent_ct: 45.8575581395Total bet ct: 5504 Continue ct lose: 13
+14: Percent_t: 47.0875542692Total bet t: 5528 Continue t lose: 14
+14: Percent_bonus: 5.48780487805Total bet bonus: 164 Continue bonus lose: 30
+14: Percent_abover 70: 45.7331827714Total bet > 70: 6199 Continue > 70 lose: 14
+14: Percent_under 70: 46.0476285771Total bet < 70: 4997 Continue < 70 lose: 17
+15: Percent true: 44.5297297297 Total bet: 9250 Max continue lose: 16
+15: Percent_ct: 45.0177147919Total bet ct: 4516 Continue ct lose: 10
+15: Percent_t: 45.9693537642Total bet t: 4503 Continue t lose: 12
+15: Percent_bonus: 6.92640692641Total bet bonus: 231 Continue bonus lose: 30
+15: Percent_abover 70: 44.4513137558Total bet > 70: 6470 Continue > 70 lose: 14
+15: Percent_under 70: 44.7122302158Total bet < 70: 2780 Continue < 70 lose: 15
+16: Percent true: 45.3107344633 Total bet: 7080 Max continue lose: 14
+16: Percent_ct: 46.4532871972Total bet ct: 3468 Continue ct lose: 11
+16: Percent_t: 46.6292134831Total bet t: 3382 Continue t lose: 19
+16: Percent_bonus: 8.69565217391Total bet bonus: 230 Continue bonus lose: 31
+16: Percent_abover 70: 45.1629502573Total bet > 70: 5830 Continue > 70 lose: 13
+16: Percent_under 70: 46.0Total bet < 70: 1250 Continue < 70 lose: 8
+17: Percent true: 44.7084233261 Total bet: 5093 Max continue lose: 15
+17: Percent_ct: 45.9549624687Total bet ct: 2398 Continue ct lose: 11
+17: Percent_t: 46.7206477733Total bet t: 2470 Continue t lose: 10
+17: Percent_bonus: 9.33333333333Total bet bonus: 225 Continue bonus lose: 33
+17: Percent_abover 70: 44.6579871874Total bet > 70: 4839 Continue > 70 lose: 19
+17: Percent_under 70: 45.6692913386Total bet < 70: 254 Continue < 70 lose: 8
+18: Percent true: 44.2652874962 Total bet: 3287 Max continue lose: 12
+18: Percent_ct: 47.1475409836Total bet ct: 1525 Continue ct lose: 10
+18: Percent_t: 45.5994897959Total bet t: 1568 Continue t lose: 12
+18: Percent_bonus: 10.824742268Total bet bonus: 194 Continue bonus lose: 35
+18: Percent_abover 70: 44.3084455324Total bet > 70: 3268 Continue > 70 lose: 12
+18: Percent_under 70: 36.8421052632Total bet < 70: 19 Continue < 70 lose: 4
+19: Percent true: 44.6019629226 Total bet: 1834 Max continue lose: 11
+19: Percent_ct: 47.7351916376Total bet ct: 861 Continue ct lose: 8
+19: Percent_t: 46.1267605634Total bet t: 852 Continue t lose: 11
+19: Percent_bonus: 11.5702479339Total bet bonus: 121 Continue bonus lose: 34
+19: Percent_abover 70: 44.6019629226Total bet > 70: 1834 Continue > 70 lose: 11
+19: Percent_under 70: 0Total bet < 70: 0 Continue < 70 lose: 0
+20: Percent true: 45.1648351648 Total bet: 910 Max continue lose: 10
+20: Percent_ct: 46.7889908257Total bet ct: 436 Continue ct lose: 7
+20: Percent_t: 47.8260869565Total bet t: 414 Continue t lose: 7
+20: Percent_bonus: 15.0Total bet bonus: 60 Continue bonus lose: 22
+20: Percent_abover 70: 45.1648351648Total bet > 70: 910 Continue > 70 lose: 10
+20: Percent_under 70: 0Total bet < 70: 0 Continue < 70 lose: 0
+21: Percent true: 43.2432432432 Total bet: 444 Max continue lose: 9
+21: Percent_ct: 48.275862069Total bet ct: 203 Continue ct lose: 5
+21: Percent_t: 41.5887850467Total bet t: 214 Continue t lose: 8
+21: Percent_bonus: 18.5185185185Total bet bonus: 27 Continue bonus lose: 14
+21: Percent_abover 70: 43.2432432432Total bet > 70: 444 Continue > 70 lose: 9
+21: Percent_under 70: 0Total bet < 70: 0 Continue < 70 lose: 0
+22: Percent true: 40.404040404 Total bet: 198 Max continue lose: 8
+22: Percent_ct: 50.0Total bet ct: 82 Continue ct lose: 6
+22: Percent_t: 35.2380952381Total bet t: 105 Continue t lose: 7
+22: Percent_bonus: 18.1818181818Total bet bonus: 11 Continue bonus lose: 5
+22: Percent_abover 70: 40.404040404Total bet > 70: 198 Continue > 70 lose: 8
+22: Percent_under 70: 0Total bet < 70: 0 Continue < 70 lose: 0
+23: Percent true: 48.7804878049 Total bet: 82 Max continue lose: 6
+23: Percent_ct: 50.0Total bet ct: 42 Continue ct lose: 6
+23: Percent_t: 50.0Total bet t: 36 Continue t lose: 4
+23: Percent_bonus: 25.0Total bet bonus: 4 Continue bonus lose: 3
+23: Percent_abover 70: 48.7804878049Total bet > 70: 82 Continue > 70 lose: 6
+23: Percent_under 70: 0Total bet < 70: 0 Continue < 70 lose: 0
+24: Percent true: 46.3414634146 Total bet: 41 Max continue lose: 4
+24: Percent_ct: 47.619047619Total bet ct: 21 Continue ct lose: 5
+24: Percent_t: 50.0Total bet t: 18 Continue t lose: 2
+24: Percent_bonus: 0.0Total bet bonus: 2 Continue bonus lose: 2
+24: Percent_abover 70: 46.3414634146Total bet > 70: 41 Continue > 70 lose: 4
+24: Percent_under 70: 0Total bet < 70: 0 Continue < 70 lose: 0
+
+Process finished with exit code 0
