@@ -168,7 +168,7 @@ for next in sc:
                 bet[index] = '1'
                 beted[index] = True
                 percent = (float)(count_1) / total * 100
-                if percent > 70.0:
+                if percent > 48.0:
                     beted_above_70[index] = 'above'
                     bet_above_team[index] = 't'
                     bet_under_team[index] = ''
@@ -181,7 +181,7 @@ for next in sc:
                 bet[index] = '0'
                 beted[index] = True
                 percent = (float)(count_0) / total * 100
-                if percent > 70.0:
+                if percent > 48.0:
                     beted_above_70[index] = 'above'
                     bet_above_team[index] = 'bonus'
                     bet_under_team[index] = ''
@@ -194,7 +194,7 @@ for next in sc:
                 bet[index] = '2'
                 beted[index] = True
                 percent = (float)(count_2) / total * 100
-                if percent > 70.0:
+                if percent > 48.0:
                     beted_above_70[index] = 'above'
                     bet_above_team[index] = 'ct'
                     bet_under_team[index] = ''

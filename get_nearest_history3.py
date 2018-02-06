@@ -68,6 +68,52 @@ max_ct_continue_lose = [0]*25
 max_t_continue_lose = [0]*25
 max_bonus_continue_lose = [0]*25
 
+
+#above-------------------
+bet_above_true_ct = [0]*25
+bet_above_true_t = [0]*25
+bet_above_true_bonus = [0]*25
+
+bet_above_false_ct = [0]*25
+bet_above_false_t = [0]*25
+bet_above_false_bonus = [0]*25
+
+bet_above_team = ['']*25
+bet_above_ct_false_before = [False]*25
+bet_above_t_false_before = [False]*25
+bet_above_bonus_false_before = [False]*25
+
+bet_above_ct_continue_lose = [0]*25
+bet_above_t_continue_lose = [0]*25
+bet_above_bonus_continue_lose = [0]*25
+
+max_above_ct_continue_lose = [0]*25
+max_above_t_continue_lose = [0]*25
+max_above_bonus_continue_lose = [0]*25
+
+#under----------------
+bet_under_true_ct = [0]*25
+bet_under_true_t = [0]*25
+bet_under_true_bonus = [0]*25
+
+bet_under_false_ct = [0]*25
+bet_under_false_t = [0]*25
+bet_under_false_bonus = [0]*25
+
+bet_under_team = ['']*25
+bet_under_ct_false_before = [False]*25
+bet_under_t_false_before = [False]*25
+bet_under_bonus_false_before = [False]*25
+
+bet_under_ct_continue_lose = [0]*25
+bet_under_t_continue_lose = [0]*25
+bet_under_bonus_continue_lose = [0]*25
+
+max_under_ct_continue_lose = [0]*25
+max_under_t_continue_lose = [0]*25
+max_under_bonus_continue_lose = [0]*25
+
+
 sc = ftest.readline()
 bet_under_70_false_before = [False]*25
 for next in sc:
@@ -111,6 +157,8 @@ for next in sc:
             beted[index] = False
             beted_above_70[index] = ''
             bet_team[index]=''
+            bet_above_team[index]= ''
+            bet_under_team[index]=''
         else:
             # print "0: "+str(count_0)
             # print "1: "+str(count_1)
@@ -120,28 +168,40 @@ for next in sc:
                 bet[index] = '1'
                 beted[index] = True
                 percent = (float)(count_1) / total * 100
-                if percent > 52.0:
+                if percent > 50.0:
                     beted_above_70[index] = 'above'
+                    bet_above_team[index] = 't'
+                    bet_under_team[index] = ''
                 else:
                     beted_above_70[index] = 'under'
+                    bet_under_team[index] = 't'
+                    bet_above_team[index] = ''
                 bet_team[index] = 't'
             if count_0 > count_1 and count_0 > count_2:
                 bet[index] = '0'
                 beted[index] = True
                 percent = (float)(count_0) / total * 100
-                if percent > 52.0:
+                if percent > 50.0:
                     beted_above_70[index] = 'above'
+                    bet_above_team[index] = 'bonus'
+                    bet_under_team[index] = ''
                 else:
                     beted_above_70[index] = 'under'
+                    bet_under_team[index] = 'bonus'
+                    bet_above_team[index] = ''
                 bet_team[index] = 'bonus'
             if count_2 > count_0 and count_2 >count_1:
                 bet[index] = '2'
                 beted[index] = True
                 percent = (float)(count_2) / total * 100
-                if percent > 52.0:
+                if percent > 50.0:
                     beted_above_70[index] = 'above'
+                    bet_above_team[index] = 'ct'
+                    bet_under_team[index] = ''
                 else:
                     beted_above_70[index] = 'under'
+                    bet_under_team[index] = 'ct'
+                    bet_above_team[index] = ''
                 bet_team[index] = 'ct'
             # print "1: "+str((float)(count_1)/(count_1+count_0+count_2)*100)
             # print "0: "+str((float)(count_0)/(count_1+count_0+count_2)*100)
@@ -167,6 +227,35 @@ for next in sc:
                             bet_true_bonus[k] = bet_true_bonus[k] + 1
                             bet_bonus_continue_lose[k] = 0
                             bet_bonus_false_before[k] = False
+                if bet_above_team[k] is 'ct':
+                    bet_above_true_ct[k] = bet_above_true_ct[k] + 1
+                    bet_above_ct_continue_lose[k] = 0
+                    bet_above_ct_false_before[k] = False
+                else:
+                    if bet_above_team[k] is 't':
+                        bet_above_true_t[k] = bet_above_true_t[k] + 1
+                        bet_above_t_continue_lose[k] = 0
+                        bet_above_t_false_before[k] = False
+                    else:
+                        if bet_above_team [k] is 'bonus':
+                            bet_above_true_bonus[k] = bet_true_bonus[k] + 1
+                            bet_above_bonus_continue_lose[k] = 0
+                            bet_above_bonus_false_before[k] = False
+                if bet_under_team[k] is 'ct':
+                    bet_under_true_ct[k] = bet_under_true_ct[k] + 1
+                    bet_under_ct_continue_lose[k] = 0
+                    bet_under_ct_false_before[k] = False
+                else:
+                    if bet_under_team[k] is 't':
+                        bet_under_true_t[k] = bet_under_true_t[k] + 1
+                        bet_under_t_continue_lose[k] = 0
+                        bet_under_t_false_before[k] = False
+                    else:
+                        if bet_under_team [k] is 'bonus':
+                            bet_under_true_bonus[k] = bet_true_bonus[k] + 1
+                            bet_under_bonus_continue_lose[k] = 0
+                            bet_under_bonus_false_before[k] = False
+
                 if beted_above_70[k] is 'above':
                     bet_true_above_70[k] = bet_true_above_70[k] + 1
                     bet_continue_false_above_70[k]=0
@@ -197,6 +286,47 @@ for next in sc:
                             if bet_bonus_continue_lose[k] > max_bonus_continue_lose[k]:
                                 max_bonus_continue_lose[k] = bet_bonus_continue_lose[k]
                             bet_bonus_false_before[k] = True
+                if bet_above_team[k] is 'ct':
+                    bet_above_false_ct[k] = bet_above_false_ct[k] + 1
+                    bet_above_ct_continue_lose[k] = bet_above_ct_continue_lose[k] + 1
+                    if bet_above_ct_continue_lose[k] > max_above_ct_continue_lose[k]:
+                        max_above_ct_continue_lose[k] = bet_above_ct_continue_lose[k]
+                    bet_above_ct_false_before[k] = True
+                else:
+                    if bet_above_team[k] is 't':
+                        bet_above_false_t[k] = bet_above_false_t[k] + 1
+                        bet_above_t_continue_lose[k] = bet_above_t_continue_lose[k] + 1
+                        if bet_above_t_continue_lose[k] > max_above_t_continue_lose[k]:
+                            max_above_t_continue_lose[k] = bet_above_t_continue_lose[k]
+                        bet_above_t_false_before[k] = True
+                    else:
+                        if bet_above_team[k] is 'bonus':
+                            bet_above_false_bonus[k] = bet_above_false_bonus[k] + 1
+                            bet_above_bonus_continue_lose[k] = bet_above_bonus_continue_lose[k] + 1
+                            if bet_above_bonus_continue_lose[k] > max_above_bonus_continue_lose[k]:
+                                max_above_bonus_continue_lose[k] = bet_above_bonus_continue_lose[k]
+                            bet_above_bonus_false_before[k] = True
+                if bet_under_team[k] is 'ct':
+                    bet_under_false_ct[k] = bet_under_false_ct[k] + 1
+                    bet_under_ct_continue_lose[k] = bet_under_ct_continue_lose[k] + 1
+                    if bet_under_ct_continue_lose[k] > max_under_ct_continue_lose[k]:
+                        max_under_ct_continue_lose[k] = bet_under_ct_continue_lose[k]
+                    bet_under_ct_false_before[k] = True
+                else:
+                    if bet_under_team[k] is 't':
+                        bet_under_false_t[k] = bet_under_false_t[k] + 1
+                        bet_under_t_continue_lose[k] = bet_under_t_continue_lose[k] + 1
+                        if bet_under_t_continue_lose[k] > max_under_t_continue_lose[k]:
+                            max_under_t_continue_lose[k] = bet_under_t_continue_lose[k]
+                        bet_under_t_false_before[k] = True
+                    else:
+                        if bet_under_team[k] is 'bonus':
+                            bet_under_false_bonus[k] = bet_under_false_bonus[k] + 1
+                            bet_under_bonus_continue_lose[k] = bet_under_bonus_continue_lose[k] + 1
+                            if bet_under_bonus_continue_lose[k] > max_under_bonus_continue_lose[k]:
+                                max_under_bonus_continue_lose[k] = bet_under_bonus_continue_lose[k]
+                            bet_under_bonus_false_before[k] = True
+
                 if beted_above_70[k] is 'above':
                     bet_false_above_70[k] = bet_false_above_70[k] + 1
                     bet_continue_false_above_70[k] = bet_continue_false_above_70[k] + 1
@@ -219,6 +349,25 @@ for k in range(0,25,1):
     percent_ct = 0
     percent_t = 0
     percent_bonus = 0
+    percent_above_ct = 0
+    percent_above_t = 0
+    percent_above_bonus = 0
+    if bet_above_false_ct[k] != 0 or bet_above_true_ct[k] != 0:
+        percent_above_ct= (float)(bet_above_true_ct[k])/(bet_above_true_ct[k]+bet_above_false_ct[k])*100
+    if bet_above_false_t[k] != 0 or bet_above_true_t[k] != 0:
+        percent_above_t= (float)(bet_above_true_t[k])/(bet_above_true_t[k]+bet_above_false_t[k])*100
+    if bet_above_false_bonus[k] != 0 or bet_above_true_bonus[k] != 0:
+        percent_above_bonus= (float)(bet_above_true_bonus[k])/(bet_above_true_bonus[k]+bet_above_false_bonus[k])*100
+    percent_under_ct = 0
+    percent_under_t = 0
+    percent_under_bonus = 0
+    if bet_under_false_ct[k] != 0 or bet_under_true_ct[k] != 0:
+        percent_under_ct= (float)(bet_under_true_ct[k])/(bet_under_true_ct[k]+bet_under_false_ct[k])*100
+    if bet_under_false_t[k] != 0 or bet_under_true_t[k] != 0:
+        percent_under_t= (float)(bet_under_true_t[k])/(bet_under_true_t[k]+bet_under_false_t[k])*100
+    if bet_under_false_bonus[k] != 0 or bet_under_true_bonus[k] != 0:
+        percent_under_bonus= (float)(bet_under_true_bonus[k])/(bet_under_true_bonus[k]+bet_under_false_bonus[k])*100
+
     if bet_false_ct[k] != 0 or bet_true_ct[k] != 0:
         percent_ct= (float)(bet_true_ct[k])/(bet_true_ct[k]+bet_false_ct[k])*100
     if bet_false_t[k] != 0 or bet_true_t[k] != 0:
@@ -231,6 +380,12 @@ for k in range(0,25,1):
         percent_under_70 = (float)(bet_true_under_70[k])/(bet_true_under_70[k]+bet_false_under_70[k])*100
     if total_bet[k] != 0:
         print str(k)+": "+"Percent true: "+ str((float)(bet_true[k])/total_bet[k]*100) + ' Total bet: ' + str(total_bet[k]) + ' Max continue lose: ' + str(max_continue_lose[k])
+        print str(k)+": "+'percent_above_ct: ' + str(percent_above_ct) + 'Total bet ct: ' + str(bet_above_true_ct[k] + bet_above_false_ct[k]) + ' Continue ct lose: ' + str(max_above_ct_continue_lose[k])
+        print str(k)+": "+'44: ' + str(percent_above_t) + 'Total bet t: ' + str(bet_above_true_t[k] + bet_above_false_t[k]) + ' Continue t lose: ' + str(max_above_t_continue_lose[k])
+        print str(k)+": "+'percent_above_bonus: ' + str(percent_above_bonus) + 'Total bet bonus: ' + str(bet_above_true_bonus[k] + bet_above_false_bonus[k]) + ' Continue bonus lose: ' + str(max_above_bonus_continue_lose[k])
+        print str(k)+": " +'percent_under_ct: ' + str(percent_under_ct) + 'Total bet ct: ' + str(bet_under_true_ct[k] + bet_under_false_ct[k]) + ' Continue ct lose: ' + str(max_under_ct_continue_lose[k])
+        print str(k)+": " +'percent_under_t: ' + str(percent_under_t) + 'Total bet t: ' + str(bet_under_true_t[k] + bet_under_false_t[k]) + ' Continue t lose: ' + str(max_under_t_continue_lose[k])
+        print str(k)+": " +'percent_under_bonus: ' + str(percent_under_bonus) + 'Total bet bonus: ' + str(bet_under_true_bonus[k] + bet_under_false_bonus[k]) + ' Continue bonus lose: ' + str(max_under_bonus_continue_lose[k])
         print str(k)+": "+'Percent_ct: ' + str(percent_ct) + 'Total bet ct: ' + str(bet_true_ct[k] + bet_false_ct[k]) + ' Continue ct lose: ' + str(max_ct_continue_lose[k])
         print str(k)+": "+'Percent_t: ' + str(percent_t) + 'Total bet t: ' + str(bet_true_t[k] + bet_false_t[k]) + ' Continue t lose: ' + str(max_t_continue_lose[k])
         print str(k)+": "+'Percent_bonus: ' + str(percent_bonus) + 'Total bet bonus: ' + str(bet_true_bonus[k] + bet_false_bonus[k]) + ' Continue bonus lose: ' + str(max_bonus_continue_lose[k])
