@@ -12,31 +12,34 @@ def toggle_side():
         current_side = '1'
 def play(bets, turn_index):
     global balance
+    result = 'lose'
     for bet in bets:
         balance = balance - bet['amount']
     if balance < 0:
-        return False
+        return False,result
     for bet in bets:
         if bet['side'] == inputStr[turn_index]:
+            result = 'win'
             if bet['side'] == '1' or bet['side'] == '2':
                 balance = balance + bet['amount'] * 2
             else:
                 balance = balance + bet['amount'] * 14
-    return True
+    return True, result
 
 def strategy(turn_index):
     global count_lose
     global current_amount
-    balance_before = balance
     bets = [{'amount':current_amount, 'side' : current_side}, {'amount':current_amount/14, 'side' : '0'}]
-    canContinuePlay = play(bets, turn_index)
+    canContinuePlay, result = play(bets, turn_index)
     if inputStr[turn_index] in '12':
-        if balance_before > balance:
+        if result == 'lose':
             count_lose = count_lose + 1
         else:
             count_lose = count_lose - 1
-        if count_lose % 40 == 0 and count_lose > 0:
-            current_amount = current_amount * pow(2, count_lose / 40)
+        if result == 'lose':
+            current_amount = current_amount * pow(2, count_lose)
+        elif result == 'win':
+            current_amount = base_amount
         # if count_lose < 10:
         #     toggle_side()
     return canContinuePlay
