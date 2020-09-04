@@ -1,5 +1,5 @@
 from collections import OrderedDict
-import urllib2
+import requests
 import os
 import sys
 import json
@@ -12,10 +12,11 @@ from selenium.webdriver.support.ui import Select
 from selenium.common.exceptions import NoSuchElementException
 from selenium.common.exceptions import NoAlertPresentException
 import unittest, time, re
-os.environ['MOZ_HEADLESS'] = '1'
-binary = FirefoxBinary('C:\\Program Files\\Mozilla Firefox\\firefox.exe', log_file=sys.stdout)
-binary.add_command_line_options('-headless')
-driver = webdriver.Firefox(firefox_binary=binary)
+# os.environ['MOZ_HEADLESS'] = '1'
+# binary = FirefoxBinary(log_file=sys.stdout)
+# binary.add_command_line_options('-headless')
+# driver = webdriver.Firefox(firefox_binary=binary)
+driver = webdriver.Firefox()
 driver.implicitly_wait(30)
 base_url = "https://www.katalon.com/"
 is_first_time = True
@@ -23,22 +24,18 @@ hash=OrderedDict()
 f1 = open("info-empire1.txt", 'w')
 errorf = open("error-empire.txt", 'w')
 
-for j in range(0,836,1):
+for j in range(2064,2063,-1):
     try:
         driver.implicitly_wait(30)
-        print '1'
         url = "https://csgoempire.com/history?seed="+str(j)
         driver.get(url)
-        if is_first_time:
-            print '2'
-            driver.find_element_by_link_text("Skip").click()
-            is_first_time = False
-        print '3'
+        # if is_first_time:
+        #     driver.find_element_by_link_text("Skip").click()
+        #     is_first_time = False
         soup = BeautifulSoup(driver.page_source, 'html.parser')
-        print '4'
-        coins = soup.find_all('div',{'class':'coin'})
-        print 'processing: '+url
+        coins = soup.find_all('img',{'class':'mb-1'})
         for coin in coins[::-1]:
+            print(coin)
             if 'coin-t' in str(coin):
                 f1.write('1')
             else:
@@ -46,9 +43,7 @@ for j in range(0,836,1):
                     f1.write('2')
                 else:
                     f1.write('0')
-        print 'done: '+url
     except:
-        print "error: "+url
         errorf.write(url + "\n")
 errorf.close()
 f1.close()
